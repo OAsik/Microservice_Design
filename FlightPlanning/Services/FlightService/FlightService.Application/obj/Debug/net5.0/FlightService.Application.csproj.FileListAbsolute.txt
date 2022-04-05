@@ -1,0 +1,15 @@
+C:\Users\zozgu\source\repos\FlightPlanning\Services\FlightService\FlightService.Application\bin\Debug\net5.0\FlightService.Domain.dll
+C:\Users\zozgu\source\repos\FlightPlanning\Services\FlightService\FlightService.Application\obj\Debug\net5.0\FlightService.Application.csprojAssemblyReference.cache
+C:\Users\zozgu\source\repos\FlightPlanning\Services\FlightService\FlightService.Application\obj\Debug\net5.0\FlightService.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zozgu\source\repos\FlightPlanning\Services\FlightService\FlightService.Application\obj\Debug\net5.0\FlightService.Application.AssemblyInfoInputs.cache
+C:\Users\zozgu\source\repos\FlightPlanning\Services\FlightService\FlightService.Application\obj\Debug\net5.0\FlightService.Application.AssemblyInfo.cs
+C:\Users\zozgu\source\repos\FlightPlanning\Services\FlightService\FlightService.Application\bin\Debug\net5.0\FlightService.Application.deps.json
+C:\Users\zozgu\source\repos\FlightPlanning\Services\FlightService\FlightService.Application\bin\Debug\net5.0\FlightService.Application.dll
+C:\Users\zozgu\source\repos\FlightPlanning\Services\FlightService\FlightService.Application\bin\Debug\net5.0\ref\FlightService.Application.dll
+C:\Users\zozgu\source\repos\FlightPlanning\Services\FlightService\FlightService.Application\bin\Debug\net5.0\FlightService.Application.pdb
+C:\Users\zozgu\source\repos\FlightPlanning\Services\FlightService\FlightService.Application\bin\Debug\net5.0\FlightService.Domain.pdb
+C:\Users\zozgu\source\repos\FlightPlanning\Services\FlightService\FlightService.Application\obj\Debug\net5.0\FlightService.Application.csproj.CoreCompileInputs.cache
+C:\Users\zozgu\source\repos\FlightPlanning\Services\FlightService\FlightService.Application\obj\Debug\net5.0\FlightService.Application.csproj.CopyComplete
+C:\Users\zozgu\source\repos\FlightPlanning\Services\FlightService\FlightService.Application\obj\Debug\net5.0\FlightService.Application.dll
+C:\Users\zozgu\source\repos\FlightPlanning\Services\FlightService\FlightService.Application\obj\Debug\net5.0\ref\FlightService.Application.dll
+C:\Users\zozgu\source\repos\FlightPlanning\Services\FlightService\FlightService.Application\obj\Debug\net5.0\FlightService.Application.pdb

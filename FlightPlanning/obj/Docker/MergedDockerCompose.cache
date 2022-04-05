@@ -1,0 +1,209 @@
+name: dockercompose11381274333938443776
+services:
+  authentication.api:
+    build:
+      context: C:\Users\zozgu\source\repos\FlightPlanning
+      dockerfile: Services/AuthenticationService/Authentication.API/Dockerfile
+    container_name: authentication.api
+    depends_on:
+      userdb:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      CacheSettings:ConnectionString: userdb:6379
+    image: authenticationapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "8000"
+      protocol: tcp
+  crew.api:
+    build:
+      context: C:\Users\zozgu\source\repos\FlightPlanning
+      dockerfile: Services/CrewService/Crew.API/Dockerfile
+    container_name: crew.api
+    depends_on:
+      crewdb:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      DatabaseSettings:ConnectionString: mongodb://crewdb:27017
+    image: crewapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "8001"
+      protocol: tcp
+  crewdb:
+    container_name: crewdb
+    image: mongo
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 27017
+      published: "27017"
+      protocol: tcp
+    restart: always
+    volumes:
+    - type: volume
+      source: mongo_data
+      target: /data/db
+      volume: {}
+  flight.api:
+    build:
+      context: C:\Users\zozgu\source\repos\FlightPlanning
+      dockerfile: Services/FlightService/Flight.API/Dockerfile
+    container_name: flight.api
+    depends_on:
+      flightdb:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings:FlightConnectionString: Server=localhost;Database=FlightDb;User
+        Id=sa;Password=Razz12345
+    image: flightapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "8003"
+      protocol: tcp
+  flightdb:
+    container_name: flightdb
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: Razz12345
+    image: docker pull mcr.microsoft.com/mssql/server
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 1433
+      published: "1433"
+      protocol: tcp
+    restart: always
+  ocelotgateway:
+    build:
+      context: C:\Users\zozgu\source\repos\FlightPlanning
+      dockerfile: ApiGateways/OcelotGateway/Dockerfile
+    container_name: ocelotgw
+    depends_on:
+      authentication.api:
+        condition: service_started
+      crew.api:
+        condition: service_started
+      flight.api:
+        condition: service_started
+      pilot.api:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: ocelotgateway
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "8010"
+      protocol: tcp
+  pgadmin:
+    container_name: pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@flightproject.com
+      PGADMIN_DEFAULT_PASSWORD: admin1234
+    image: dpage/pgadmin4
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "5050"
+      protocol: tcp
+    restart: always
+    volumes:
+    - type: volume
+      source: pgadmin_data
+      target: /root/.pgadmin
+      volume: {}
+  pilot.api:
+    build:
+      context: C:\Users\zozgu\source\repos\FlightPlanning
+      dockerfile: Services/PilotService/Pilot.API/Dockerfile
+    container_name: pilot.api
+    depends_on:
+      pilotdb:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      DatabaseSettings:ConnectionString: Server=pilotdb;Post=5432;Database=PilotDb;User
+        Id=admin;Password=admin1234
+    image: pilotapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "8002"
+      protocol: tcp
+  pilotdb:
+    container_name: pilotdb
+    environment:
+      POSTGRES_DB: PilotDb
+      POSTGRES_PASSWORD: admin1234
+      POSTGRES_USER: admin
+    image: postgres
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 5432
+      published: "5432"
+      protocol: tcp
+    restart: always
+    volumes:
+    - type: volume
+      source: postgres_data
+      target: /var/lib/postgresql/data
+      volume: {}
+  rabbitmq:
+    container_name: rabbitmq
+    image: rabbitmq:3-management-alpine
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 5672
+      published: "5672"
+      protocol: tcp
+    - mode: ingress
+      target: 15672
+      published: "15672"
+      protocol: tcp
+    restart: always
+  userdb:
+    container_name: userdb
+    image: redis:alpine
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 6379
+      published: "6379"
+      protocol: tcp
+    restart: always
+networks:
+  default:
+    name: dockercompose11381274333938443776_default
+volumes:
+  mongo_data:
+    name: dockercompose11381274333938443776_mongo_data
+  pgadmin_data:
+    name: dockercompose11381274333938443776_pgadmin_data
+  postgres_data:
+    name: dockercompose11381274333938443776_postgres_data

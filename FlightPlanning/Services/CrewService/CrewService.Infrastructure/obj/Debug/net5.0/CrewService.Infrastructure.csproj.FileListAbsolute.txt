@@ -1,0 +1,17 @@
+C:\Users\zozgu\source\repos\FlightPlanning\Services\CrewService\CrewService.Infrastructure\bin\Debug\net5.0\CrewService.Infrastructure.deps.json
+C:\Users\zozgu\source\repos\FlightPlanning\Services\CrewService\CrewService.Infrastructure\bin\Debug\net5.0\CrewService.Infrastructure.dll
+C:\Users\zozgu\source\repos\FlightPlanning\Services\CrewService\CrewService.Infrastructure\bin\Debug\net5.0\ref\CrewService.Infrastructure.dll
+C:\Users\zozgu\source\repos\FlightPlanning\Services\CrewService\CrewService.Infrastructure\bin\Debug\net5.0\CrewService.Infrastructure.pdb
+C:\Users\zozgu\source\repos\FlightPlanning\Services\CrewService\CrewService.Infrastructure\bin\Debug\net5.0\CrewService.Application.dll
+C:\Users\zozgu\source\repos\FlightPlanning\Services\CrewService\CrewService.Infrastructure\bin\Debug\net5.0\CrewService.Domain.dll
+C:\Users\zozgu\source\repos\FlightPlanning\Services\CrewService\CrewService.Infrastructure\bin\Debug\net5.0\CrewService.Application.pdb
+C:\Users\zozgu\source\repos\FlightPlanning\Services\CrewService\CrewService.Infrastructure\bin\Debug\net5.0\CrewService.Domain.pdb
+C:\Users\zozgu\source\repos\FlightPlanning\Services\CrewService\CrewService.Infrastructure\obj\Debug\net5.0\CrewService.Infrastructure.csprojAssemblyReference.cache
+C:\Users\zozgu\source\repos\FlightPlanning\Services\CrewService\CrewService.Infrastructure\obj\Debug\net5.0\CrewService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zozgu\source\repos\FlightPlanning\Services\CrewService\CrewService.Infrastructure\obj\Debug\net5.0\CrewService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\zozgu\source\repos\FlightPlanning\Services\CrewService\CrewService.Infrastructure\obj\Debug\net5.0\CrewService.Infrastructure.AssemblyInfo.cs
+C:\Users\zozgu\source\repos\FlightPlanning\Services\CrewService\CrewService.Infrastructure\obj\Debug\net5.0\CrewService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\zozgu\source\repos\FlightPlanning\Services\CrewService\CrewService.Infrastructure\obj\Debug\net5.0\CrewService.Infrastructure.csproj.CopyComplete
+C:\Users\zozgu\source\repos\FlightPlanning\Services\CrewService\CrewService.Infrastructure\obj\Debug\net5.0\CrewService.Infrastructure.dll
+C:\Users\zozgu\source\repos\FlightPlanning\Services\CrewService\CrewService.Infrastructure\obj\Debug\net5.0\ref\CrewService.Infrastructure.dll
+C:\Users\zozgu\source\repos\FlightPlanning\Services\CrewService\CrewService.Infrastructure\obj\Debug\net5.0\CrewService.Infrastructure.pdb

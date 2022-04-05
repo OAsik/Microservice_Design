@@ -1,0 +1,17 @@
+C:\Users\zozgu\source\repos\FlightPlanning\Services\FlightService\FlightService.Infrastructure\bin\Debug\net5.0\FlightService.Application.dll
+C:\Users\zozgu\source\repos\FlightPlanning\Services\FlightService\FlightService.Infrastructure\bin\Debug\net5.0\FlightService.Domain.dll
+C:\Users\zozgu\source\repos\FlightPlanning\Services\FlightService\FlightService.Infrastructure\obj\Debug\net5.0\FlightService.Infrastructure.csprojAssemblyReference.cache
+C:\Users\zozgu\source\repos\FlightPlanning\Services\FlightService\FlightService.Infrastructure\obj\Debug\net5.0\FlightService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zozgu\source\repos\FlightPlanning\Services\FlightService\FlightService.Infrastructure\obj\Debug\net5.0\FlightService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\zozgu\source\repos\FlightPlanning\Services\FlightService\FlightService.Infrastructure\obj\Debug\net5.0\FlightService.Infrastructure.AssemblyInfo.cs
+C:\Users\zozgu\source\repos\FlightPlanning\Services\FlightService\FlightService.Infrastructure\bin\Debug\net5.0\FlightService.Infrastructure.deps.json
+C:\Users\zozgu\source\repos\FlightPlanning\Services\FlightService\FlightService.Infrastructure\bin\Debug\net5.0\FlightService.Infrastructure.dll
+C:\Users\zozgu\source\repos\FlightPlanning\Services\FlightService\FlightService.Infrastructure\bin\Debug\net5.0\ref\FlightService.Infrastructure.dll
+C:\Users\zozgu\source\repos\FlightPlanning\Services\FlightService\FlightService.Infrastructure\bin\Debug\net5.0\FlightService.Infrastructure.pdb
+C:\Users\zozgu\source\repos\FlightPlanning\Services\FlightService\FlightService.Infrastructure\bin\Debug\net5.0\FlightService.Application.pdb
+C:\Users\zozgu\source\repos\FlightPlanning\Services\FlightService\FlightService.Infrastructure\bin\Debug\net5.0\FlightService.Domain.pdb
+C:\Users\zozgu\source\repos\FlightPlanning\Services\FlightService\FlightService.Infrastructure\obj\Debug\net5.0\FlightService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\zozgu\source\repos\FlightPlanning\Services\FlightService\FlightService.Infrastructure\obj\Debug\net5.0\FlightService.Infrastructure.csproj.CopyComplete
+C:\Users\zozgu\source\repos\FlightPlanning\Services\FlightService\FlightService.Infrastructure\obj\Debug\net5.0\FlightService.Infrastructure.dll
+C:\Users\zozgu\source\repos\FlightPlanning\Services\FlightService\FlightService.Infrastructure\obj\Debug\net5.0\ref\FlightService.Infrastructure.dll
+C:\Users\zozgu\source\repos\FlightPlanning\Services\FlightService\FlightService.Infrastructure\obj\Debug\net5.0\FlightService.Infrastructure.pdb

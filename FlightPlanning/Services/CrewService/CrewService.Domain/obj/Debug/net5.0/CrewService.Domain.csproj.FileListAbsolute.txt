@@ -1,0 +1,12 @@
+C:\Users\zozgu\source\repos\FlightPlanning\Services\CrewService\CrewService.Domain\bin\Debug\net5.0\CrewService.Domain.deps.json
+C:\Users\zozgu\source\repos\FlightPlanning\Services\CrewService\CrewService.Domain\bin\Debug\net5.0\CrewService.Domain.dll
+C:\Users\zozgu\source\repos\FlightPlanning\Services\CrewService\CrewService.Domain\bin\Debug\net5.0\ref\CrewService.Domain.dll
+C:\Users\zozgu\source\repos\FlightPlanning\Services\CrewService\CrewService.Domain\bin\Debug\net5.0\CrewService.Domain.pdb
+C:\Users\zozgu\source\repos\FlightPlanning\Services\CrewService\CrewService.Domain\obj\Debug\net5.0\CrewService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zozgu\source\repos\FlightPlanning\Services\CrewService\CrewService.Domain\obj\Debug\net5.0\CrewService.Domain.AssemblyInfoInputs.cache
+C:\Users\zozgu\source\repos\FlightPlanning\Services\CrewService\CrewService.Domain\obj\Debug\net5.0\CrewService.Domain.AssemblyInfo.cs
+C:\Users\zozgu\source\repos\FlightPlanning\Services\CrewService\CrewService.Domain\obj\Debug\net5.0\CrewService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\zozgu\source\repos\FlightPlanning\Services\CrewService\CrewService.Domain\obj\Debug\net5.0\CrewService.Domain.dll
+C:\Users\zozgu\source\repos\FlightPlanning\Services\CrewService\CrewService.Domain\obj\Debug\net5.0\ref\CrewService.Domain.dll
+C:\Users\zozgu\source\repos\FlightPlanning\Services\CrewService\CrewService.Domain\obj\Debug\net5.0\CrewService.Domain.pdb
+C:\Users\zozgu\source\repos\FlightPlanning\Services\CrewService\CrewService.Domain\obj\Debug\net5.0\CrewService.Domain.csprojAssemblyReference.cache

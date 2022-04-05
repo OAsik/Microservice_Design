@@ -1,0 +1,15 @@
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Application\bin\Debug\net5.0\Pilot.Domain.dll
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Application\obj\Debug\net5.0\Pilot.Application.csprojAssemblyReference.cache
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Application\obj\Debug\net5.0\Pilot.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Application\obj\Debug\net5.0\Pilot.Application.AssemblyInfoInputs.cache
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Application\obj\Debug\net5.0\Pilot.Application.AssemblyInfo.cs
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Application\bin\Debug\net5.0\Pilot.Application.deps.json
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Application\bin\Debug\net5.0\Pilot.Application.dll
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Application\bin\Debug\net5.0\ref\Pilot.Application.dll
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Application\bin\Debug\net5.0\Pilot.Application.pdb
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Application\bin\Debug\net5.0\Pilot.Domain.pdb
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Application\obj\Debug\net5.0\Pilot.Application.csproj.CoreCompileInputs.cache
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Application\obj\Debug\net5.0\Pilot.Application.csproj.CopyComplete
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Application\obj\Debug\net5.0\Pilot.Application.dll
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Application\obj\Debug\net5.0\ref\Pilot.Application.dll
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Application\obj\Debug\net5.0\Pilot.Application.pdb

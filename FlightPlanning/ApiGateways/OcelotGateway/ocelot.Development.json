@@ -1,0 +1,103 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/v1/Authentication/GenerateAccessToken",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "authentication.api",
+          "Port": "80"
+        }
+      ],
+      "UpstreamPathTemplate": "/Authentication/login",
+      "UpstreamHttpMethod": [ "POST" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "FlightPlanningTestScheme",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/Crew/GetCrews",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "crew.api",
+          "Port": "80"
+        }
+      ],
+      "UpstreamPathTemplate": "/Crew/GetAllCrews",
+      "UpstreamHttpMethod": [ "GET" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "FlightPlanningTestScheme",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/Pilot/GetPilots",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "pilot.api",
+          "Port": "80"
+        }
+      ],
+      "UpstreamPathTemplate": "/Crew/GetAllPilots",
+      "UpstreamHttpMethod": [ "GET" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "FlightPlanningTestScheme",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/Flight/GetFlights",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "flight.api",
+          "Port": "80"
+        }
+      ],
+      "UpstreamPathTemplate": "/Flight/GetAllFlights",
+      "UpstreamHttpMethod": [ "GET" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "FlightPlanningTestScheme",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/Flight/ScheduleFlight",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "flight.api",
+          "Port": "80"
+        }
+      ],
+      "UpstreamPathTemplate": "/Flight/ScheduleFlight",
+      "UpstreamHttpMethod": [ "PUT" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "FlightPlanningTestScheme",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/Flight/CheckoutStaff",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "flight.api",
+          "Port": "80"
+        }
+      ],
+      "UpstreamPathTemplate": "/Flight/CheckoutStaff",
+      "UpstreamHttpMethod": [ "POST" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "FlightPlanningTestScheme",
+        "AllowedScopes": []
+      }
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:5010"
+  }
+}

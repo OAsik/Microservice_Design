@@ -1,0 +1,17 @@
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Infrastructure\bin\Debug\net5.0\Pilot.Application.dll
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Infrastructure\bin\Debug\net5.0\Pilot.Domain.dll
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Infrastructure\obj\Debug\net5.0\Pilot.Infrastructure.csprojAssemblyReference.cache
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Infrastructure\obj\Debug\net5.0\Pilot.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Infrastructure\obj\Debug\net5.0\Pilot.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Infrastructure\obj\Debug\net5.0\Pilot.Infrastructure.AssemblyInfo.cs
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Infrastructure\bin\Debug\net5.0\Pilot.Infrastructure.deps.json
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Infrastructure\bin\Debug\net5.0\Pilot.Infrastructure.dll
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Infrastructure\bin\Debug\net5.0\ref\Pilot.Infrastructure.dll
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Infrastructure\bin\Debug\net5.0\Pilot.Infrastructure.pdb
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Infrastructure\bin\Debug\net5.0\Pilot.Application.pdb
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Infrastructure\bin\Debug\net5.0\Pilot.Domain.pdb
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Infrastructure\obj\Debug\net5.0\Pilot.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Infrastructure\obj\Debug\net5.0\Pilot.Infrastructure.csproj.CopyComplete
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Infrastructure\obj\Debug\net5.0\Pilot.Infrastructure.dll
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Infrastructure\obj\Debug\net5.0\ref\Pilot.Infrastructure.dll
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Infrastructure\obj\Debug\net5.0\Pilot.Infrastructure.pdb

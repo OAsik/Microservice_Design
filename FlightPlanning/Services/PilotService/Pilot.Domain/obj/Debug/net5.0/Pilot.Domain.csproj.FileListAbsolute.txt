@@ -1,0 +1,12 @@
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Domain\bin\Debug\net5.0\Pilot.Domain.deps.json
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Domain\bin\Debug\net5.0\Pilot.Domain.dll
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Domain\bin\Debug\net5.0\ref\Pilot.Domain.dll
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Domain\bin\Debug\net5.0\Pilot.Domain.pdb
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Domain\obj\Debug\net5.0\Pilot.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Domain\obj\Debug\net5.0\Pilot.Domain.AssemblyInfoInputs.cache
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Domain\obj\Debug\net5.0\Pilot.Domain.AssemblyInfo.cs
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Domain\obj\Debug\net5.0\Pilot.Domain.csproj.CoreCompileInputs.cache
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Domain\obj\Debug\net5.0\Pilot.Domain.dll
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Domain\obj\Debug\net5.0\ref\Pilot.Domain.dll
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Domain\obj\Debug\net5.0\Pilot.Domain.pdb
+C:\Users\zozgu\source\repos\FlightPlanning\Services\PilotService\Pilot.Domain\obj\Debug\net5.0\Pilot.Domain.csprojAssemblyReference.cache

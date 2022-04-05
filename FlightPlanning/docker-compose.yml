@@ -1,0 +1,57 @@
+version: '3.4'
+
+services:
+  userdb:
+    image: redis:alpine
+
+  crewdb:
+    image: mongo
+
+  pilotdb:
+    image: postgres
+
+  flightdb:
+    image: docker pull mcr.microsoft.com/mssql/server
+
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+
+  pgadmin:
+    image: dpage/pgadmin4
+
+  authentication.api:
+    image: ${DOCKER_REGISTRY-}authenticationapi
+    build:
+      context: .
+      dockerfile: Services/AuthenticationService/Authentication.API/Dockerfile
+
+  crew.api:
+    image: ${DOCKER_REGISTRY-}crewapi
+    build:
+      context: .
+      dockerfile: Services/CrewService/Crew.API/Dockerfile
+
+  pilot.api:
+    image: ${DOCKER_REGISTRY-}pilotapi
+    build:
+      context: .
+      dockerfile: Services/PilotService/Pilot.API/Dockerfile
+
+  flight.api:
+    image: ${DOCKER_REGISTRY-}flightapi
+    build:
+      context: .
+      dockerfile: Services/FlightService/Flight.API/Dockerfile
+
+  ocelotgateway:
+    image: ${DOCKER_REGISTRY-}ocelotgateway
+    build:
+      context: .
+      dockerfile: ApiGateways/OcelotGateway/Dockerfile
+
+volumes:
+  mongo_data:
+  postgres_data:
+  pgadmin_data:
+
+
